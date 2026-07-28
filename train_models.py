@@ -12,7 +12,7 @@ from sklearn.metrics import r2_score, accuracy_score,mean_absolute_error, mean_s
 # ===========================
 
 df = pd.read_csv(
-    "C:/Users/shreya/Downloads/Gujarat_Water_Intelligence_Dataset_100K (1).csv"
+    "Gujarat_Water_Intelligence_Dataset_100K (1).csv"
 )
 
 # ===================================================
