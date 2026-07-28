@@ -348,7 +348,7 @@ elif menu == "Water Shortage Risk":
     y = df["water_shortage_risk"]
     @st.cache_resource
     def load_shortage_model():
-        with open("models/shortage.pkl", "rb") as f:
+        with open("shortage.pkl", "rb") as f:
             return pickle.load(f)
 
     shortage_model = load_shortage_model()
@@ -450,8 +450,8 @@ elif menu == "Water Consumption":
     y = df["water_consumption_mld"]
     @st.cache_resource
     def load_Demand_model():
-        with open("models/demand.pkl", "rb") as f:
-            return joblib.load("models/demand.pkl")
+        with open("demand.pkl", "rb") as f:
+            return joblib.load("demand.pkl")
 
     Demand_model = load_Demand_model()
     
@@ -536,7 +536,7 @@ elif menu == "Leakage Detection":
 
     @st.cache_resource
     def load_leakage_model():
-        with open("models/leakage.pkl", "rb") as f:
+        with open("leakage.pkl", "rb") as f:
             return pickle.load(f)
 
     leakage_model = load_leakage_model()
