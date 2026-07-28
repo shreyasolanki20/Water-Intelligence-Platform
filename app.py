@@ -22,7 +22,7 @@ st.set_page_config(
     layout="wide"
 )
 
-df = pd.read_csv("C:/Users/shreya/Downloads/Gujarat_Water_Intelligence_Dataset_100K (1).csv")
+df = pd.read_csv("Gujarat_Water_Intelligence_Dataset_100K (1).csv")
 
 st.markdown("""
 <style>
