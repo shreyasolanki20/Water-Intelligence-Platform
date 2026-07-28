@@ -112,7 +112,7 @@ div[data-testid="stNumberInput"] input:focus {
 
 
 #load dataset 
-df = pd.read_csv("C:/Users/shreya/Downloads/Gujarat_Water_Intelligence_Dataset_100K (1).csv")
+df = pd.read_csv("Gujarat_Water_Intelligence_Dataset_100K (1).csv")
 
 menu = option_menu(
     menu_title="💧 Water Intelligence System",
